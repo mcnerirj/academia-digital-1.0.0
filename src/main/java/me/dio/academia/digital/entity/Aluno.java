@@ -12,9 +12,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Data  //Lombok para implementar  get e setter
+@NoArgsConstructor //Lombok  - Construtor Vazio
+@AllArgsConstructor //Lombok - Construtor com todos os atributos
 @Entity
 @Table(name = "tb_alunos")
 @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})

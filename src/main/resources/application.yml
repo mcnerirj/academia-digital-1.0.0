@@ -1,3 +1,5 @@
+server.port: 8080
+
 spring:
   datasource:
     url: jdbc:postgresql://10.1.1.30:5432/academia
@@ -10,6 +12,11 @@ spring:
     properties:
       hibernate.format_sql: true
 
+loggin:
+    level:
+      org:
+        hibernate:
+          type: trace
 
 
 
